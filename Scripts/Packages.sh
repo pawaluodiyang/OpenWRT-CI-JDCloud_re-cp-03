@@ -65,6 +65,8 @@ UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-ap
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
 UPDATE_PACKAGE "adguardhome" "kenzok8/openwrt-packages"  "master" "" "luci-app-adguardhome"
+UPDATE_PACKAGE "nikki" "nikkinikki-org/OpenWrt-nikki"  "main" "" "luci-app-nikki"
+
 
 if [[ $WRT_REPO != *"immortalwrt"* ]]; then
 	UPDATE_PACKAGE "qmi-wwan" "immortalwrt/wwan-packages" "master" "pkg"
