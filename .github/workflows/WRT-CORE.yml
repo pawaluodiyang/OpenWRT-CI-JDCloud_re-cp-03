@@ -179,7 +179,8 @@ jobs:
         run: |
           cd ./wrt/
 
-          make -j$(nproc) || make -j$(nproc) V=s
+          # make -j$(nproc) || make -j$(nproc) V=s
+          make -j4 || make -j4 V=sc
 
       - name: Machine Information
         run: |
