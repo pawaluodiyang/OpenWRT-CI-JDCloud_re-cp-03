@@ -41,8 +41,8 @@ jobs:
         #CONFIG: [MEDIATEK, ROCKCHIP, X86]
         CONFIG: [MEDIATEK]
 
-        SOURCE: [VIKINGYFY/immortalwrt]
-        BRANCH: [owrt]
+        SOURCE: [openwrt/openwrt]
+        BRANCH: [main]
 
     #调用公用编译核心WRT-CORE.yml
     uses: ./.github/workflows/WRT-CORE.yml
@@ -52,9 +52,9 @@ jobs:
       #默认主题
       WRT_THEME: argon
       #默认主机名
-      WRT_NAME: ImmortalWrt
+      WRT_NAME: OpenWrt
       #默认WIFI名称
-      WRT_SSID: OWRT
+      WRT_SSID: OpenWrt
       #默认WIFI密码
       WRT_WORD: 12345678
       #默认地址
