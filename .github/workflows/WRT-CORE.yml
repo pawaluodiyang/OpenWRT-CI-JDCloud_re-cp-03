@@ -148,6 +148,8 @@ jobs:
           cd ./wrt/
 
           ./scripts/feeds update -a
+           #测试
+          ./scripts/feeds install boost
           ./scripts/feeds install -a
 
       - name: Custom Packages
